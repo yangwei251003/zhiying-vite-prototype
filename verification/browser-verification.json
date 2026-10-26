@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "subpath": "/zhiying-vite-prototype/",
+  "fixedSyntheticFixturesOnly": true,
+  "realModelOrImageGenerationApiCalled": false,
+  "checks": [
+    {
+      "name": "route /",
+      "width": 1440,
+      "h1": "看见你的职业未来",
+      "overflow": false
+    },
+    {
+      "name": "route /knowledge-base",
+      "width": 1440,
+      "h1": "职业知识库",
+      "overflow": false
+    },
+    {
+      "name": "route /jd-parse",
+      "width": 1440,
+      "h1": "JD智能解析",
+      "overflow": false
+    },
+    {
+      "name": "route /ai-match",
+      "width": 1440,
+      "h1": "AI岗位匹配",
+      "overflow": false
+    },
+    {
+      "name": "route /resume-generator",
+      "width": 1440,
+      "h1": "简历智能生成",
+      "overflow": false
+    },
+    {
+      "name": "route /interview",
+      "width": 1440,
+      "h1": "模拟面试",
+      "overflow": false
+    },
+    {
+      "name": "synthetic interactions",
+      "width": 1440,
+      "localKnowledgePersistenceAndClear": true,
+      "fixedJdMock": true,
+      "resumeEdit": true,
+      "pdfUnimplementedAlertObserved": true,
+      "fixedInterviewFeedback": true,
+      "scriptErrors": [],
+      "externalRequests": [],
+      "failedResponses": []
+    },
+    {
+      "name": "route /",
+      "width": 390,
+      "h1": "看见你的职业未来",
+      "overflow": false
+    },
+    {
+      "name": "route /knowledge-base",
+      "width": 390,
+      "h1": "职业知识库",
+      "overflow": false
+    },
+    {
+      "name": "route /jd-parse",
+      "width": 390,
+      "h1": "JD智能解析",
+      "overflow": false
+    },
+    {
+      "name": "route /ai-match",
+      "width": 390,
+      "h1": "AI岗位匹配",
+      "overflow": false
+    },
+    {
+      "name": "route /resume-generator",
+      "width": 390,
+      "h1": "简历智能生成",
+      "overflow": false
+    },
+    {
+      "name": "route /interview",
+      "width": 390,
+      "h1": "模拟面试",
+      "overflow": false
+    },
+    {
+      "name": "synthetic interactions",
+      "width": 390,
+      "localKnowledgePersistenceAndClear": true,
+      "fixedJdMock": true,
+      "resumeEdit": true,
+      "pdfUnimplementedAlertObserved": true,
+      "fixedInterviewFeedback": true,
+      "scriptErrors": [],
+      "externalRequests": [],
+      "failedResponses": []
+    }
+  ]
+}

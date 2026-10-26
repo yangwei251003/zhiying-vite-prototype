@@ -1,0 +1,80 @@
+{
+  "verifiedOn": "2026-10-26",
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 5,
+    "high": 0,
+    "critical": 0,
+    "total": 5
+  },
+  "dependencies": [
+    {
+      "name": "postcss-nested",
+      "severity": "moderate",
+      "range": "2.0.3 - 6.2.0",
+      "direct": false,
+      "paths": [
+        "node_modules/postcss-nested"
+      ],
+      "advisories": []
+    },
+    {
+      "name": "postcss-selector-parser",
+      "severity": "moderate",
+      "range": "<7.1.6",
+      "direct": false,
+      "paths": [
+        "node_modules/postcss-selector-parser"
+      ],
+      "advisories": [
+        {
+          "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+          "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+          "range": "<7.1.6"
+        }
+      ]
+    },
+    {
+      "name": "react-router",
+      "severity": "moderate",
+      "range": "6.0.0 - 7.17.0",
+      "direct": false,
+      "paths": [
+        "node_modules/react-router"
+      ],
+      "advisories": [
+        {
+          "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+          "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+          "range": ">=6.0.0 <7.18.0"
+        },
+        {
+          "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+          "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+          "range": ">=6.4.0 <7.18.0"
+        }
+      ]
+    },
+    {
+      "name": "react-router-dom",
+      "severity": "moderate",
+      "range": "6.0.0-alpha.0 - 7.17.0",
+      "direct": true,
+      "paths": [
+        "node_modules/react-router-dom"
+      ],
+      "advisories": []
+    },
+    {
+      "name": "tailwindcss",
+      "severity": "moderate",
+      "range": "<=0.0.0-oxide-insiders.ff2c25f || 0.5.0 - 3.4.19",
+      "direct": true,
+      "paths": [
+        "node_modules/tailwindcss"
+      ],
+      "advisories": []
+    }
+  ]
+}

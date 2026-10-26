@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.git/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.trae/
+%USERPROFILE%/
+test-results/
+playwright-report/
